@@ -10,7 +10,7 @@ import Course from "../Course/Course";
 const Main = () => {
     const style = classes();
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} style={style.container}>
             <Grid item xs={9}>
                 <CustomTitle title={strings.courses} bgColor={colors.testDark} withLine />
                 {

@@ -1,6 +1,6 @@
 const classes = () => ({
-    item: {
-        backgroundColor:'cyan',
+    container: {
+        fontFamily:'Baloo Bhaijaan 2',
     },
     margin: {
         marginLeft: 10,

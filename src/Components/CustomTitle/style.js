@@ -17,10 +17,11 @@ const classes = (bgColor) => ({
     },
     title: {
         width: '15%',
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'white'
     },
     tilteStandard: {
-
+        color: 'white'
     },
 });
 
