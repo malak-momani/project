@@ -47,10 +47,71 @@ export const mockCourses = [
     },
     {
         number: 4,
-        name: 'تطوير العاب ثلاثية البعد على محرك الألعاب' ,
+        name: 'تطوير العاب ثلاثية البعد على محرك الألعاب',
         image: threedGames,
         status: courseStatus.uncompleted,
         isClosed: true,
     }
 
+]
+
+export const lines = [
+    {
+        label: 'قواعد البيانات',
+        key: 1,
+    },
+    {
+        label: 'مطور الواجهة الأمامية',
+        key: 2,
+    },
+    {
+        label: 'البرمجة الكينونية',
+        key: 3,
+    },
+];
+
+export const courses = [
+    {
+        label: 'تصميم الالعاب الالكترونية',
+        key: 1,
+    },
+    {
+        label: 'البرمجة بلغة السي شارب',
+        key: 2,
+    },
+    {
+        label: 'تطوير العاب ثنائية البعد على محرك الألعاب',
+        key: 3,
+    },
+    {
+        label: 'البرمجة الكينونية',
+        key: 4,
+    }
+];
+
+export const lessons = [
+    {
+        label: ' القواعد الأساسية للغة ال #C',
+        key: 1,
+    },
+    {
+        label: ' كيفية بناء التطبيق ومشاركته مع الغير',
+        key: 2,
+    },
+    {
+        label: 'كيفية إنشاء المتغيرات Variables ونطاقاتها',
+        key: 3,
+    },
+    {
+        label: ' كيفية إنشاء وتعريف واستخدام المصفوفات',
+        key: 4,
+    },
+    {
+        label: 'إنشاء جمل شرطية IF Statement',
+        key: 5,
+    },
+    {
+        label: 'كيفية استخدام الحلقات التكرارية Loop Statements',
+        key: 6,
+    }
 ]

@@ -1,10 +1,4 @@
-import {
-    Card,
-    CardActions,
-    CardContent,
-    IconButton,
-    Typography
-} from "@material-ui/core";
+
 import React from "react";
 import classes from "./style";
 import mainClasses from '../Main/style'
@@ -13,6 +7,13 @@ import colors from "../../Constants/colors";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import check from '../../assets/check.png';
 import quiz from '../../assets/quiz.png';
+import {
+    Card,
+    CardActions,
+    CardContent,
+    IconButton,
+    Typography
+} from "@mui/material";
 
 const UpcomingEvent = ({ type, title, category }) => {
     const bgColor = type === EventTypes.test ? colors.testLight : colors.missionLight;

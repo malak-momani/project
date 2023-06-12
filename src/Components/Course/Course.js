@@ -1,10 +1,10 @@
-import { Card, Grid, Typography } from "@material-ui/core";
 import classes from "./style";
 import mainClasses from "../Main/style";
 import Checkbox from '../../assets/checkbox.png';
 import Minus from '../../assets/minuButton.png'
 import { courseStatus } from "../../Constants/constants";
 import lock from '../../assets/padlock.png'
+import { Card, Grid, Typography } from "@mui/material";
 
 const Course = ({
     name,
